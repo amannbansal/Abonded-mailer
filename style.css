@@ -1,0 +1,91 @@
+ body{
+    background-color: rgb(228, 215, 215);
+}
+  * {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 65.33%;
+    height: 900px; 
+    text-align: left;
+    
+    border-right: 5px dotted black;
+    border-top: 5px dotted black;
+    height: 900px;
+
+ }
+  .column2 {
+    float: right;
+    width: 34.67%;
+    height: 900px; 
+   
+    
+  }
+  .row{
+    padding: 60px 60px;
+  }
+  .row:after {
+    content: "";
+    display:table;
+    clear: both;
+    
+  }
+  
+  .button{
+    text-align: center;
+    font-size: 40px;
+    background-color: #04AA6D;
+    padding: 30px;
+  }
+.head{
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  
+}
+  
+ 
+   
+  .oops{
+    font-size: 60px;
+  
+  }
+  .help{
+    border-top: dotted;
+    border-color: black;
+    
+  }
+  .border{
+
+    border-bottom: dotted;
+    border-color: black;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    padding-top: 100px;
+    ;
+  }
+  th{
+    border-bottom: groove;
+    text-align: left;
+    padding: 4px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  td{
+    border: none;
+    text-align: left;
+    padding: 10px;
+    border-bottom: groove;
+  }
+  .cart{
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: groove;
+  }
